@@ -9,119 +9,112 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/5
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Vzaar
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-31"
+modified: "2018-08-31"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/vzaar/master/_listings/vzaar/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Vzaar API Get Api Accounts Account
-  x-api-slug: vzaar-api
+- name: VZaar API - Get Api Accounts Account
+  x-api-slug: apiaccountsaccount-format-get
   description: 'nnThis API call returns the details and rights for each vzaar subscription
     account type along with its relevant metadata. This will show the details of the
     packages available here: http://vzaar.com/pricingnn'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
   humanURL: http://vzaar.com/
-  baseURL: https://vzaar.com////api/accounts/{account}.{format}
-  tags: Api,Accounts,Account,Format
+  baseURL: https://vzaar.com//
+  tags: API United Kingdom, Stack Network, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/vzaar/master/_listings/vzaar/apiaccountsaccount-format-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/vzaar/master/_listings/vzaar/apiaccountsaccount-format-get-openapi.md
-- name: Vzaar API Post Api Upload Link.xmln
-  x-api-slug: vzaar-api
+- name: VZaar API - Post Api Upload Link.xmln
+  x-api-slug: apiuploadlink-xmln-post
   description: nnThis API call allows a user to upload &amp; process video file from
     given url.nn
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
   humanURL: http://vzaar.com/
-  baseURL: https://vzaar.com////api/upload/link.xmln
-  tags: Api,Upload,Link,Xmln
+  baseURL: https://vzaar.com//
+  tags: API United Kingdom, Stack Network, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/vzaar/master/_listings/vzaar/apiuploadlink-xmln-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/vzaar/master/_listings/vzaar/apiuploadlink-xmln-post-openapi.md
-- name: Vzaar API Get Api Users Username
-  x-api-slug: vzaar-api
+- name: VZaar API - Get Api Users Username
+  x-api-slug: apiusersusername-format-get
   description: nnThis API call returns the users public details along with its relevant
     metadata.nn
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
   humanURL: http://vzaar.com/
-  baseURL: https://vzaar.com////api/users/{username}.{format}
-  tags: Api,Users,Username,Format
+  baseURL: https://vzaar.com//
+  tags: API United Kingdom, Stack Network, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/vzaar/master/_listings/vzaar/apiusersusername-format-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/vzaar/master/_listings/vzaar/apiusersusername-format-get-openapi.md
-- name: Vzaar API Post Api Videos
-  x-api-slug: vzaar-api
+- name: VZaar API - Post Api Videos
+  x-api-slug: apivideos-post
   description: nnThis API call tells the vzaar system to process a newly uploaded
     video. This will encode it if necessary and then provide a vzaar video idea back.nn
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
   humanURL: http://vzaar.com/
-  baseURL: https://vzaar.com////api/videos
-  tags: Api,Videos
+  baseURL: https://vzaar.com//
+  tags: API United Kingdom, Stack Network, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/vzaar/master/_listings/vzaar/apivideos-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/vzaar/master/_listings/vzaar/apivideos-post-openapi.md
-- name: Vzaar API Get Api Videos Signature
-  x-api-slug: vzaar-api
+- name: VZaar API - Get Api Videos Signature
+  x-api-slug: apivideossignature-get
   description: nnThis API call allows a user to request a GUID and an AWS S3 signature.
     With these credentials the user will then be able upload a file into vzaar video
     storage area.nnThe response for this must be parsed and used in the Upload step.
     The upload will fail if any of these details are incorrect.nn
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
   humanURL: http://vzaar.com/
-  baseURL: https://vzaar.com////api/videos/signature
-  tags: Api,Videos,Signature
+  baseURL: https://vzaar.com//
+  tags: API United Kingdom, Stack Network, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/vzaar/master/_listings/vzaar/apivideossignature-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/vzaar/master/_listings/vzaar/apivideossignature-get-openapi.md
-- name: Vzaar API Get Api Videos
-  x-api-slug: vzaar-api
+- name: VZaar API - Get Api Videos
+  x-api-slug: apivideosvideo-format-get
   description: 'nnvzaar uses the oEmbed open standard for allowing 3rd parties to
     integrated with the vzaar. You can use the vzaar video URL to easily obtain the
     appropriate embed code for that video. To find out more about oEmbed view the
     specification here: http://oembed.com/nn'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
   humanURL: http://vzaar.com/
-  baseURL: https://vzaar.com////api/videos/{video}.{format}
-  tags: Api,Videos,Video,Format
+  baseURL: https://vzaar.com//
+  tags: API United Kingdom, Stack Network, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/vzaar/master/_listings/vzaar/apivideosvideo-format-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/vzaar/master/_listings/vzaar/apivideosvideo-format-get-openapi.md
-- name: Vzaar API Get Api Username Videos
-  x-api-slug: vzaar-api
+- name: VZaar API - Get Api Username Videos
+  x-api-slug: apiusernamevideos-xml-get
   description: nnThis API call returns a list of the users active videos along with
     its relevant metadata. 20 videos are returned by default but this is customisable.nn
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
   humanURL: http://vzaar.com/
-  baseURL: https://vzaar.com////api/{username}/videos.xml
-  tags: Api,Username,Videos,Xml
+  baseURL: https://vzaar.com//
+  tags: API United Kingdom, Stack Network, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/vzaar/master/_listings/vzaar/apiusernamevideos-xml-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/vzaar/master/_listings/vzaar/apiusernamevideos-xml-get-openapi.md
-- name: Vzaar API
-  x-api-slug: vzaar-api
-  description: vzaar is anonline video hostingservice with fantasticfeaturesthat are
-    designed for business. Deliver tomobileor the web straight from your site.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
-  humanURL: http://vzaar.com/
-  baseURL: https://vzaar.com//
-  tags: Vzaar
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/vzaar/master/_listings/vzaar/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://vmware.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://vzaar.stack.network
 - type: x-base
   url: http://vzaar.com/api/
 - type: x-blog

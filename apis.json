@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Vzaar",
+	"description": "This is a repository of vzaar APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/vzaar.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-31",
+	"url": "http://vzaar.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Vzaar",
+			"x-api-slug": "vzaar",
+			"description": "vzaar is an online video hosting service, which launched in 2007. The site supports video streaming, embedding, sharing, and video storage. Originally targeted at eBay sellers, the service expanded in 2008 and now provides online video services designed for business and other commercial operations.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png",
+			"humanURL": "http://vzaar.com/",
+			"baseURL": "https://vzaar.com//",
+			"tags": "Vzaar",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/vzaar/master/_listings/vzaar/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Vzaar",
+	"include": [
+		{
+			"name": "Vzaar",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/vzaar/master/_listings/vzaar/apis.yaml"
+		}
+	]
+}
